@@ -1,37 +1,27 @@
-<!DOCTYPE HTML>
 <html>
-    <title>КОТИКИ</title>
-    <header style="background-color:purple">
-        <h1 style = "color:white;text-align:center;"><i><b>які в нас есть котики и якой породи<br>(в продажу)</b></i></h1>
-
-    </header>
+    <head>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
     <body>
-        <main style="background-color:pink">
-        <i><h1 style="color:fuchsia;text-align:center">КОТИКИ</h1></i>
-         <p style="color:white;text-align:left"><a href ="https://uk.wikipedia.org/wiki/%D0%9A%D1%96%D1%82">Кіт</a> — рід хижих ссавців родини котових. У деяких старіших системах класифікації до нього зараховували всіх представників малих кішок, проте зараз безпосередньо до роду відносяться лише кілька видів невеликих тварин, що мешкають у Євразії та Африці.
-
-Найвідомішим представником цього роду є свійський кіт — підвид кота лісового.
-
-За розміром найменшим представником роду є вид мураховий тигр довжина тіла і голови якого становить від 38 до 44 см. Найбільшим є кіт очеретяний із довжиною тіла і голови від 62 до 76 см. Види котів  мешкають у широкому різновиді природних середовищ, від болотяних до пустель, і харчуються здебільшого малими мишоподібними, птахами й іншими дрібними тваринами.
-
-Генетичні дослідження показують, що Кіт , Манул  і Азійський кіт  походять від Євразійського прародителя, що існував близько 6,2 мільйонів років тому, і що види Котів розділилися від 3,04 до 0.99 мільйонів років тому.</p><img src = "data:image/jpeg;base64,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"><img src="https://cs11.pikabu.ru/post_img/2019/02/04/12/1549312329147951618.jpg"width = "350px"height="165px">
-    
-    
+        <header>
+            <img src="/uploads/2020/11/logo_0_1606475988.png"/>
+            <a href="#news">Новини</a>
+            <a href="#contest">Конкурс</a>
+            <a href="#plans">Плани розвитку</a>
+        </header>
+        <main>
+            <h1>Pixel Design</h1>
+            <h2 id="news">Наші останні новини</h2>
+            <p>В нашій студії новий дизайнер: піксель Cube. Саме він буде виконувати ваші замовлення по тривимірній графіці. Захоплюється ландшафтним та інтер'єрним дизайном. Нещодавно він давав інтерв'ю газеті<i>Progress news</i>.<br/><img src ="/uploads/2020/11/news_0_1606476698.png"></p>
+            <h2 id="contest">Готуємося до конкурсу</h2>
+            <p>Навесні наступного року ми плануємо брати участь в конкурсі дизайну. Наші роботи будуть представлені в напрямках: <i> веб-дизайн, поліграфічний дизайн, дизайн інтер'єрів </i>. По кожному напрямку ми збираємося представити кілька робіт, які пройдуть попередній відбір в нашій студії.<br/><img src="/uploads/2020/11/pixel-cells-3702056_1280_0_1606479607.png"/></p>
+            <h2 contest="plans">Плани розвитку</h2>
+            <p>У цьому місяці ми готуємо річне планування нашої роботи. Крім того, що ми приймаємо й виконуємо клієнтські замовлення по дизайну, ми беремо участь в конкурсах, вчимося на онлайн курсах, що підвищують нашу майстерність, переглядаємо збірки кращих робіт, які можна знайти в Інтернеті.<br/><img src="/uploads/2020/11/plans_0_1606479762.png"/></p>
         </main>
-        <footer style="background-color:purple">
-        <table style="border:1px solid white;border-collapse:collapse">
-        <tr>
-            <td style="color:white;">telegram -</td>
-            <td><a href = "https://uk.wikipedia.org/wiki/%D0%9A%D1%96%D1%82"><font style="color:white">@wiki fake</font></a></td>
-        </tr>
-        <tr>
-            <td style="color:white">instagram -</td>
-            <td><a href = "https://uk.wikipedia.org/wiki/%D0%9A%D1%96%D1%82"><font style="color:white">@wiki fake</font></a></td>
-        </tr>
-
-    </table>
-    
-    <p style="background-color:purple;color:white;text-align:center;">адрес улица пушкина ** <br>телефон +38056***53</p>
-    </footer>
+        <footer>
+            <p><b><i>Контакти</i></b></p>
+            <p>Адреса: м. Техноград, вул. Дисплейна, 15</p>
+            <p>Тел.: 8895-6341</p>
+        </footer>
     </body>
 </html>
